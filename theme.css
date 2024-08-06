@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+
+        --color-accent: #00b0ff;
+        --color-accent-revert: #e83e8c;
+
+        --color-primary: #fafafa;
+        --color-secondary: #d1d1d1;
+        --color-threttiary: #09090b;
+        --color-success: #5a5a5a;
+
+        --color-danger: #dc3545;
+        --color-warning: #ffc107;
+        --color-info: #17a2b8;
+
+        --border-radius: 4px;
+        --padding: 8px;
+
+        --font-family-primary: ProximaNova, Arial, sans-serif;
+        --font-family-secondary: 'Andale Mono', sans-seri;
+
+        --line-hight-primar: 130%;
+        --line-hight-secondary: 160%;
+        ;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+
+        --color-accent: #00b0ff;
+        --color-accent-revert: #e83e8c;
+        --color-primary: #09090b;
+        --color-secondary: #27272a;
+        --color-threttiary: #fafafa;
+        --color-success: #a1a1aa;
+
+        --color-danger: #dc3545;
+        --color-warning: #ffc107;
+        --color-info: #17a2b8;
+
+        --border-radius: 4px;
+        --padding: 8px;
+
+        --font-family-primary: ProximaNova, Avantgarde, 'TeX Gyre Adventor', 'URW Gothic L',  Arial, sans-serif;
+        --font-family-secondary: 'Andale Mono', Courier, monospace;
+
+        --line-hight-primar: 110%;
+        --line-hight-secondary: 140%;
+    }
+}

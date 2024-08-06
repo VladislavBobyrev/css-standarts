@@ -1,0 +1,7 @@
+/* Новая стилизация для article */
+.article {
+    background-color: var(--color-secondary);
+    color: var(--color-threttiary);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+}

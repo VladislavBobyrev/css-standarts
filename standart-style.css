@@ -1,0 +1,126 @@
+body {
+    background-color: var(--color-primary);
+    color: var(--color-threttiary);
+    font-family: var(--font-family-primary);
+    line-height: var(--line-hight-primar);
+    padding: var(--padding);
+    accent-color: var(--color-accent);
+}
+
+h1, h2, h3, h4, h5, h6, summary {
+    font-family: var(--font-family-secondary);
+    line-height: var(--line-hight-secondary);
+}
+
+/* Стилизация интерактивных элементов */
+a {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+a:hover {
+    color: var(--color-accent);
+}
+a:active, button:active {
+    opacity: 0.8;
+}
+
+button {
+    background-color: var(--color-threttiary);
+    color: var(--color-primary);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--color-accent);
+}
+
+input,
+textarea,
+select {
+    border: 1px solid var(--color-secondary);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    color: var(--color-threttiary);
+    background-color: var(--color-primary);
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+summary:focus{
+    outline: 2px solid var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+input:indeterminate,
+textarea:indeterminate,
+select:indeterminate,
+progress:indeterminate {
+    background-color: var(--color-accent-revert);
+}
+
+label {
+    display: block;
+    margin-bottom: var(--padding);
+    color: var(--color-threttiary);
+}
+
+details {
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    color: var(--color-threttiary);
+}
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--color-threttiary);
+}
+
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+progress::-webkit-progress-value {
+    background: var(--color-accent);
+}
+
+hr {
+    border-color: var(--color-accent-revert);
+}
+mark {
+    background: var(--color-accent-revert);
+}
+
+::-webkit-meter-optimum-value {
+    background: var(--color-accent);
+}
+
+::selection {
+    background: var(--color-accent); /* Safari */
+}
+::-moz-selection {
+    background:  var(--color-accent); /* Firefox */
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-secondary);
+}
